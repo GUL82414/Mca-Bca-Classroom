@@ -1,0 +1,113 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	min-height: 100vh;
+	position: relative;
+	margin: 0;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+/* Navbar - Start*/
+.navbar {
+	background-color: #272c30;
+}
+.navbar-brand {
+	font-family: 'Alata';
+	font-size: 1.8em !important;
+	color: white !important;
+}
+/* Navbar - End*/
+
+.container-fluid {
+	/* min-height: 76.8vh; */
+	padding-top: 5px;
+	/* margin-bottom: 20px; */
+}
+
+.container {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+/* Cards - Start */
+.card-body p {
+	display: block;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.card {
+	background: #fff;
+	margin-bottom: 2em;
+}
+.card img {
+	width: 100%;
+}
+/* [class*="row"] {
+	justify-content: center;
+} */
+/* Cards - End */
+
+.cardHr {
+	height: 5px;
+	margin: 0;
+	width: 70%;
+	background: #364f6b;
+}
+
+.col-lg-4 {
+	margin-bottom: 15px;
+}
+
+/* Footer - Start */
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+}
+
+.footer {
+	/* left: 0;
+	bottom: 0; */
+	/* height: 40px; */
+	width: 100%;
+	background-color: #272c30;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+
+.footer p {
+	margin-bottom: 0;
+}
+
+.footer-text {
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	font-size: 18px;
+}
+
+footer a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+	.footer {
+		font-size: 18px;
+	}
+}
+/* Footer - End */
